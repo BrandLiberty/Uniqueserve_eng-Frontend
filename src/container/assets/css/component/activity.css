@@ -1,0 +1,9 @@
+.esg-head{
+    font-size: 5.5rem !important;
+}
+.esg-part-details h2 {
+  color: white;
+}
+.activity-part::before {
+  background: rgba(115, 112, 216, 0.6);
+}

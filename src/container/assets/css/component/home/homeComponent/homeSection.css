@@ -1,0 +1,109 @@
+.home-section{
+    background:linear-gradient(rgb(22 20 102),rgb(42 127 227));
+    height: 100vh;
+    padding: 5%;
+    
+}
+
+.home-section-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.home-section-row li {
+    padding:10px;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: white;
+    border-top:0.5rem solid white;
+}
+.home-section-row li:hover {
+cursor: pointer;
+border-top: 0.5rem solid rgb(42 127 227);
+}
+.home-section-container-list2{
+    margin-top: 60px;
+    height: 90vh;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    
+}
+.home-section-content{
+    margin:20px;
+    width: 73vw;
+    height: 90%;
+}
+.home-section-img{
+    margin-left: 20px;
+    margin-top: 100px;
+    width: 90%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-section-img img {
+    height: 100%;
+}
+.home-section-specific-content h2{
+    font-size: 8rem;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 74px;
+}
+.home-section-specific-content p{
+    margin-top: 30px;
+    font-size: 2rem;
+    color: white;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 1030px) {
+    .home-section-container-list2{
+        flex-direction: column;
+    }
+    .home-section{
+        height: fit-content;
+    }
+    .home-section-container-list2{
+        height: fit-content;
+    }
+    .home-section-content{
+        height: fit-content;
+    }
+    .home-section-img{
+        margin: 20px;
+        height: fit-content;
+    }
+    .home-section-img img{
+        height: fit-content;
+    }
+}
+@media only screen and (max-width: 730px) {
+    .home-section-row{
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        background-color: rgba(18, 24, 80, 0.326);
+    }
+    
+    .home-section-row li {
+        padding:0;
+        font-size: 1.5rem;
+        letter-spacing: normal;
+        color: white;
+        border-top:none;
+    }
+}
+@media only screen and (max-width: 555px) {
+    .home-section-specific-content h2{
+        font-size: 4rem !important;
+        line-height: 60px;
+    }
+}

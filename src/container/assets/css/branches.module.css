@@ -1,0 +1,30 @@
+/* TwoVerticalSections.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .firstSection {
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .secondSection {
+    flex: 30%;
+    padding: 20px;
+    overflow-x: auto; /* Enable horizontal scroll */
+    white-space: nowrap; /* Ensure cards stay in a single line */
+  }
+  
+  .card {
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    background-color: #f0f0f0;
+    margin-right: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    color: white;
+  }
+  

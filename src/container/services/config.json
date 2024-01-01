@@ -1,0 +1,11 @@
+{
+    "development": {
+        "server" : "http://localhost:8000"
+    },
+    "staging": {
+        "server": ""
+    },
+    "production": {
+        "server": ""
+    }
+}

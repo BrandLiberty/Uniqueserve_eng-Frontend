@@ -1,0 +1,28 @@
+/* TwoVerticalSections.css */
+
+.card {
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+    background-color: rgb(22 20 102);
+    margin-right: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    color: white;
+    padding: 20px;
+    white-space: break-spaces;
+  }
+  .cardContent{
+    width: 100%;
+  }
+.textSection p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+  .textHead{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+  }

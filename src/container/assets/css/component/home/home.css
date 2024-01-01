@@ -1,0 +1,40 @@
+.section-bg-color{
+    background: rgba(241, 241, 247, 0.85);
+}
+.heading-font-size{
+    font-size: 6.5rem !important;
+}
+.home-heighlight{
+    color: rgb(22 20 102);
+}
+.home-aboutus-website-head{
+    font-size: 4.5rem !important;
+}
+.home-about-us-logo-img{
+    max-width: 104%;
+    height: 179px;
+}
+.home-service-content{
+    color: rgb(22 20 102) !important;
+    font-size: 4.5rem !important;
+    font-style: italic;
+}
+.home-background-clip{
+    padding: 5px;
+    font-family: 'Kanit',sans-serif;
+    font-size: 6rem ;
+    font-weight: bold;
+    /* background-color: black; */
+    background-image: url(../../../images/Photos/11.png);
+    mix-blend-mode: difference;
+    background-position: center;
+    background-size: 15rem;
+    background-repeat: repeat;
+    background-clip: text ;
+    -webkit-background-clip: text;
+    color:transparent;
+}
+.we-do-updated{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

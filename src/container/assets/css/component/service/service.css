@@ -1,0 +1,81 @@
+.service-part-details h2 {
+    color: white;
+}
+.service-part::before{
+    background: rgba(115,112,216,.6);
+}
+.background-clip {
+  padding: 5px;
+  font-family: "Kanit", sans-serif;
+  font-size: 6rem;
+  font-weight: bold;
+  /* background-color: black; */
+  background-image: url(../../../images/Home-section/socialimpact.jpg);
+  mix-blend-mode: difference;
+  background-position: center;
+  background-size: 15rem;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.servicepage-content{
+    /* margin-top: 32px; */
+}
+.servicepage-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 32px;
+}
+.servicepage-img{
+    /* padding-top: 4px; */
+    padding-left: 4px;
+    padding-right: 4px;
+    height: 100%;
+    width: 1030px;
+}
+.servicepage-img img{
+    height: 242px;
+    width: 1030px;
+}
+.servicepage-box-left{
+    flex-direction: row;
+    background-color:rgba(241, 241, 247, 0.85);
+    padding:5% 5% 5% 5%;
+}
+.servicepage-box-right{
+    flex-direction: row-reverse;
+    background-color: rgb(42 127 227);
+    color: white !important;
+    padding:5% 5% 5% 5%;
+}
+.servicepage-box-left h2 a{
+    padding-top: 0;
+    font-size: 4.5rem;
+}
+.servicepage-box-right h2 a{
+    padding-top: 0;
+    font-size: 4.5rem;
+    color: white !important;
+}
+.servicepage-box-right p{
+    color: white !important;
+}
+.servicepage-box-right .servicepage-img{
+    padding-right: 15px;
+}
+@media only screen and (max-width: 650px) {
+    .servicepage-box{
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .servicepage-img{
+        width: fit-content;
+    }
+    .servicepage-img img{
+        width: fit-content;
+    }
+
+}

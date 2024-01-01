@@ -1,0 +1,24 @@
+.background-clip {
+  padding: 5px;
+  font-family: "Kanit", sans-serif;
+  font-size: 6rem;
+  font-weight: bold;
+  /* background-color: black; */
+  background-image: url(../../images/Home-section/socialimpact.jpg);
+  mix-blend-mode: difference;
+  background-position: center;
+  background-size: 15rem;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.esg-head{
+    font-size: 5.5rem !important;
+}
+.esg-part-details h2 {
+  color: white;
+}
+.esg-part::before {
+  background: rgba(115, 112, 216, 0.6);
+}
