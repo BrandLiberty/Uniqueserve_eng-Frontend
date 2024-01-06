@@ -73,10 +73,10 @@ const ContactComp = () => {
                                                 <h3>social partner</h3>
                                                 <div class="contact-icon">
                                                     <ul>
-                                                        <li><a href="https://www.facebook.com/KishoreCoolkarni?mibextid=eHce3h"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                                        <li><a href="https://www.facebook.com/profile.php?id=100069361430747"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                                         {/*<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
     <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>*/}
-                                                        <li><a href="https://www.instagram.com/kishore_coolkarni?igsh=MXE0NDl6dHlnb200aw=="><i class="fa-brands fa-square-instagram" aria-hidden="true"></i></a></li>
+                                                        <li><a href="https://www.instagram.com/uniqueserve.engineering?igsh=MTAzNHFjbnlydnZlMw=="><i class="fa-brands fa-square-instagram" aria-hidden="true"></i></a></li>
                                                     </ul>
                                                 </div>
                                             </div>
