@@ -2,11 +2,12 @@ import React, { useState } from 'react'
 import '../../assets/css/component/about/about.css'
 import cert1 from '../../assets/images/certificates/MITSC.jpg'
 import cert2 from '../../assets/images/certificates/certificate2.jpg'
+import cert3 from '../../assets/images/certificates/Recognition.png'
 const About = () => {
 
     const [index, setIndex] = useState(0)
 
-    const certArr = [{ image: cert1, text: ' Maharashtra Information Technology Support Center' }, { image: cert2, text: 'The Week for Safe Use of Electrical Energy and Allied Appliances' }]
+    const certArr = [{ image: cert1, text: ' Maharashtra Information Technology Support Center' }, { image: cert2, text: 'The Week for Safe Use of Electrical Energy and Allied Appliances' },{image: cert3, text: 'Certifcate of Recognition'}]
 
     const handleLeft = () => {
         if (index > 0) {
