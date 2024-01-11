@@ -6,6 +6,6 @@
         "server": ""
     },
     "production": {
-        "server": ""
+        "server": "https://api.uniqueserveengineering.com"
     }
 }
